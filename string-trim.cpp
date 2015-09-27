@@ -1,4 +1,5 @@
-
+/* Method for trimming of std::strings. It removes white chars from beginning and form end 
+   of the string. The trimmed string is returned, original string is unchanged. */
 
 std::string trim (std::string s)
 {
