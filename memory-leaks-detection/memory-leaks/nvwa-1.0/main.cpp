@@ -9,7 +9,7 @@ int main ()
     
     delete [] pint;
     
-    // nie zwolniona pamiec dla pdouble
+    // niezwolniona pamiec dla pdouble
     
     return 0;
 }
