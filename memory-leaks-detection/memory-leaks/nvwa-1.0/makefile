@@ -9,6 +9,8 @@ __ : main
 	./main	 
 	
 main: main.cpp nvwa/*.cpp
-	$(kompilator) $(standard) -o $@ $^
+	$(kompilator) $(standard) -o $@ $^ -pedantic
+    
+# main : main.cpp    ../../../memory-leaks-detection/memory-leaks/nvwa-1.0/nvwa/*.cpp    
 
  
